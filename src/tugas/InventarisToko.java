@@ -1,7 +1,9 @@
+package tugas;
+
 import java.util.Scanner;
 
 /**
- * Kelas Barang merepresentasikan item dalam inventaris
+ * Kelas tugas.Barang merepresentasikan item dalam inventaris
  */
 class Barang {
     String nama;
@@ -18,7 +20,7 @@ class Barang {
 
 /**
  * Program Inventaris Toko - Soal 2
- * Menambahkan fitur Update Stok dan Cari Barang
+ * Menambahkan fitur Update Stok dan Cari tugas.Barang
  */
 public class InventarisToko {
     // Array inventaris dan jumlah barang sebagai variabel static
@@ -106,7 +108,7 @@ public class InventarisToko {
             }
         }
         // Jika tidak ditemukan
-        System.out.println("\n>> Barang dengan nama '" + nama + "' tidak ditemukan.");
+        System.out.println("\n>> tugas.Barang dengan nama '" + nama + "' tidak ditemukan.");
     }
 
     /**
@@ -123,7 +125,7 @@ public class InventarisToko {
 
         for (int i = 0; i < jumlahBarang; i++) {
             if (inventaris[i].nama.equalsIgnoreCase(nama)) {
-                System.out.println("Barang ditemukan!");
+                System.out.println("tugas.Barang ditemukan!");
                 System.out.println("------------------------------------------");
                 System.out.println("Nama       : " + inventaris[i].nama);
                 System.out.println("Jumlah Stok: " + inventaris[i].jumlahStok);
@@ -133,7 +135,7 @@ public class InventarisToko {
             }
         }
         // Jika tidak ditemukan
-        System.out.println("Barang dengan nama '" + nama + "' tidak ditemukan.");
+        System.out.println("tugas.Barang dengan nama '" + nama + "' tidak ditemukan.");
         System.out.println("==========================================");
     }
 }

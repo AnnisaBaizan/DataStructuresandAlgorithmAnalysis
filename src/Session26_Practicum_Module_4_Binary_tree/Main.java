@@ -1,10 +1,14 @@
-package binarytree;
+package Session26_Practicum_Module_4_Binary_tree;
+
+import Session26_Practicum_Module_4_Binary_tree.BST;
+import Session26_Practicum_Module_4_Binary_tree.BinaryTree;
+import Session26_Practicum_Module_4_Binary_tree.Node;
 
 public class Main {
     public static void main(String[] args) {
 
         // === Binary Tree ===
-        BinaryTree bt = new BinaryTree();
+        Session26_Practicum_Module_4_Binary_tree.BinaryTree bt = new BinaryTree();
         bt.root = new Node(1);
         bt.root.left = new Node(2);
         bt.root.right = new Node(3);
@@ -15,7 +19,7 @@ public class Main {
         bt.inorder(bt.root);
 
         // === BST ===
-        BST bst = new BST();
+        Session26_Practicum_Module_4_Binary_tree.BST bst = new BST();
         bst.insert(50);
         bst.insert(30);
         bst.insert(70);

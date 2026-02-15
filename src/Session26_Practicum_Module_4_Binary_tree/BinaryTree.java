@@ -1,4 +1,6 @@
-package binarytree;
+package Session26_Practicum_Module_4_Binary_tree;
+
+import Session26_Practicum_Module_4_Binary_tree.Node;
 
 public class BinaryTree {
     Node root;
